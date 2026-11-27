@@ -1,4 +1,4 @@
-# wrecorder
+# WRecorder
 
 <p align="center">
   <img src="docs/demo.gif" alt="Demonstração do WRecorder" width="400">
@@ -150,3 +150,7 @@ Cada trecho é gravado em MKV (resistente a travamentos) e no final é juntado e
 - **Wayland**: por segurança, o sistema decide o que pode ser gravado. Monitor e janela são escolhidos no **diálogo do sistema** (não dá para listar janelas por título). Para gravar uma área, escolha o monitor no diálogo e depois arraste a área.
 - **Atalhos no Wayland** usam o portal *GlobalShortcuts* (GNOME 48+, KDE Plasma). Na primeira vez o sistema pede confirmação, e depois dá para trocar os atalhos nas configurações do sistema. Se o portal não estiver disponível, use as teclas no terminal.
 - **Windows**: a gravação de janela usa o título dela; janelas minimizadas não podem ser gravadas.
+
+## Licença
+
+[MIT](LICENSE)
